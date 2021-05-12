@@ -1,0 +1,22 @@
+.card {
+    width: 300px;
+    min-height: 556px;
+    display: flex;
+    flex-direction: column;
+
+    .media {
+        height: 300px;
+    }
+
+    .actions {
+        padding: 8px 16px;
+    }
+
+    .description {
+        margin-top: 8px;
+    }
+
+    .content {
+        flex-grow: 1;
+    }
+}

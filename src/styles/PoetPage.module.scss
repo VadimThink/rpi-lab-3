@@ -1,0 +1,85 @@
+.main {
+    padding: 16px 0;
+
+    .poetInfo {
+        display: flex;
+
+        img {
+            height: 250px;
+        }
+
+        .wrapper {
+            margin-left: 16px;
+            display: flex;
+            flex-direction: column;
+
+            .name {
+                font-weight: bold;
+            }
+
+            .info {
+                font-size: 18px;
+                white-space: pre-wrap;
+                word-wrap: break-word;
+            }
+        }
+    }
+
+    .timeline {
+        white-space: pre-wrap;
+        word-wrap: break-word;
+    }
+
+    .slider {
+        background: #616161;
+
+        &Item {
+            height: 60vh;
+            width: 100%;
+            display: flex !important;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                height: 100%;
+            }
+        }
+    }
+
+    .arrowWrapper {
+        position: absolute;
+        top: 0;
+        height: 100%;
+        cursor: pointer;
+        z-index: 1000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 150px;
+
+        &.left {
+            left: 0;
+        }
+
+        &.right {
+            right: 0;
+        }
+
+        .arrow {
+            color: #ccc;
+            font-size: 36px;
+            transition: color 0.2s;
+        }
+
+        &:hover .arrow {
+            color: #fff;
+        }
+    }
+
+    .iframe {
+        width: 100%;
+        height: 60vh;
+        margin-top: 30px;
+        border: none;
+    }
+}
