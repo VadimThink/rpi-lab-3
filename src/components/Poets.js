@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Container, Grid, Box, makeStyles } from '@material-ui/core';
 import PoetCard from './PoetCard';
 import { poets } from '../poets.json';
@@ -19,18 +19,26 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 function Poets() {
+    const [searchValue, setSearchValue] = useState('');
     const classes = useStyles();
+
+    function handleChange(e) {
+        setSearchValue(e.target.value);
+    }
 
     return (
         <Box>
             {/* <SearchMenu /> */}
+            <input type="search" autocomplete="off" value={searchValue} onChange={handleChange} placeholder="Поиск" />
             <Container maxWidth="lg" className={classes.container}>
                 <Grid spacing={3} container direction="row" justify="center" xs={12} className={classes.itemContainer}>
-                    {poets.map(({ name, photo, description }, i) => (
-                        <PoetCard key={i} name={name} photo={photo} index={i}>
-                            {description}
-                        </PoetCard>
-                    ))}
+                    {poets
+                        .filter(({ name }) => new RegExp(`${searchValue}`, 'gi').test(name))
+                        .map(({ name, photo, description }, i) => (
+                            <PoetCard key={i} name={name} photo={photo} index={i}>
+                                {description}
+                            </PoetCard>
+                        ))}
                 </Grid>
             </Container>
         </Box>
