@@ -1,47 +1,74 @@
 {
     "poets": [
         {
-            "name": "Якуб Колас",
+            "name": {"ru": "Якуб Колас", "en": "Yakub Kolas"},
             "born": "22.10.1882",
             "died": "13.08.1956",
             "photo": "/images/kolas.jpg",
-            "description": "Белорусский советский писатель, драматург, поэт и переводчик, общественный деятель. Один из классиков и основоположников новой белорусской литературы.  Заслуженный деятель науки Белорусской ССР. Член ВКП с 1945 года.",
-            "info": "Якуб Колас внес значительный вклад в национальную и мировую литературу. Его произведения переведены более чем на 40 языков мира. Наиболее важными его достижениями являются: расширение жанровых возможностей   белорусской литературы, обогащение национальной  поэзии философской и пейзажной лирикой, сочетание лирики и эпоса, закладывание  основ белорусского романа и белорусской детской литературы, становление норм белорусского литературного языка. Его жизнь и деятельность пронизаны благородством, неравнодушием, основательным отношением ко всему в жизни, верностью принципам, отстаиванием своих взглядов, любовью к Родине и своему народу, заботой о сохранении самобытности белорусов и протестом против любого угнетения человека.",
+            "description": {
+                "ru": "Белорусский советский писатель, драматург, поэт и переводчик, общественный деятель. Один из классиков и основоположников новой белорусской литературы.  Заслуженный деятель науки Белорусской ССР. Член ВКП с 1945 года.", 
+                "en": "Belarusian Soviet writer, playwright, poet and translator, public figure. One of the classics and founders of the new Belarusian literature. Honored Scientist of the Byelorussian SSR. Member of the CPSU since 1945."
+            },
+            "info": {
+                "ru": "Якуб Колас внес значительный вклад в национальную и мировую литературу. Его произведения переведены более чем на 40 языков мира. Наиболее важными его достижениями являются: расширение жанровых возможностей   белорусской литературы, обогащение национальной  поэзии философской и пейзажной лирикой, сочетание лирики и эпоса, закладывание  основ белорусского романа и белорусской детской литературы, становление норм белорусского литературного языка. Его жизнь и деятельность пронизаны благородством, неравнодушием, основательным отношением ко всему в жизни, верностью принципам, отстаиванием своих взглядов, любовью к Родине и своему народу, заботой о сохранении самобытности белорусов и протестом против любого угнетения человека.", 
+                "en": "Yakub Kolas made a significant contribution to national and world literature. His works have been translated into more than 40 languages ​​of the world. His most important achievements are: the expansion of the genre possibilities of Belarusian literature, the enrichment of national poetry with philosophical and landscape lyrics, the combination of lyrics and epos, laying the foundations of the Belarusian novel and Belarusian children's literature, the formation of the norms of the Belarusian literary language. His life and work are permeated with nobility, indifference, a thorough attitude to everything in life, loyalty to principles, defending his views, love for the Motherland and his people, concern for preserving the identity of Belarusians and protest against any oppression of a person."
+            },
             "timeline": [
                 {
                     "date": "22.10.1882",
-                    "title": "Рождение",
-                    "info": "Родился в деревне Акинчицы, в православной семье лесника Михаила Казимировича (Михася) Мицкевича и домохозяйки Анны Юрьевны Лосик. Предки по отцовской линии — католики."
+                    "title": {"ru": "Рождение", "en": "Birth"},
+                    "info": {
+                        "ru": "Родился в деревне Акинчицы, в православной семье лесника Михаила Казимировича (Михася) Мицкевича и домохозяйки Анны Юрьевны Лосик. Предки по отцовской линии — католики.", 
+                        "en": "Born in the village of Akinchitsy, in the Orthodox family of forester Mikhail Kazimirovich (Mikhas) Mitskevich and housewife Anna Yurievna Losik. Paternal ancestors are Catholics."
+                    }
                 },
                 {
-                    "date": "1902 год",
-                    "title": "Учеба",
-                    "info": "Окончил народную школу, в 1902 году — Несвижскую учительскую семинарию"
+                    "date": "1902",
+                    "title": {"ru": "Учеба", "en": "Study"},
+                    "info": {
+                        "ru": "Окончил народную школу, в 1902 году — Несвижскую учительскую семинарию",
+                        "en": "Graduated from the public school, in 1902 - the Nesvizh Teachers' Seminary"
+                    }
                 },
                 {
-                    "date": "1906 год",
-                    "title": "Первая публикация",
-                    "info": "В 1906 году первая публикация — стихотворение «Край родимый» в белорусской газете «Наша доля»."
+                    "date": "1906",
+                    "title": {"ru": "Первая публикация", "en": "First publication"},
+                    "info": {
+                        "ru": "В 1906 году первая публикация — стихотворение «Край родимый» в белорусской газете «Наша доля».",
+                        "en": "In 1906, the first publication - the poem «Dear Land» in the Belarusian newspaper «Nasha Dolya»."
+                    }
                 },
                 {
                     "date": "1908—1911",
-                    "title": "Заключение",
-                    "info": "За участие в организации нелегального учительского съезда был приговорён к заключению, которое отбывал в минской тюрьме."
+                    "title": {"ru": "Заключение", "en": "Detention"},
+                    "info": {
+                        "ru": "За участие в организации нелегального учительского съезда был приговорён к заключению, которое отбывал в минской тюрьме.",
+                        "en": "For participation in the organization of an illegal teachers' congress, he was sentenced to imprisonment, which he served in a Minsk prison."
+                    }
                 },
                 {
                     "date": "1915-1918",
-                    "title": "Переезд, служба в армии",
-                    "info": "В 1915 году эвакуировался вместе с семьёй в Подмосковье, работал учителем в Дмитровском уезде. В этом же году мобилизован в армию. Окончил Александровское военное училище (Москва, 1916) и служил в запасном полку в Перми. В это время его семья переехала в Обоянь (Курская губерния). В звании подпоручика летом 1917 года был отправлен на Румынский фронт. После демобилизации (1918) работал учителем в городе Обоянь."
+                    "title": {"ru": "Переезд, служба в армии", "en": "Moving, military service"},
+                    "info": {
+                        "ru": "В 1915 году эвакуировался вместе с семьёй в Подмосковье, работал учителем в Дмитровском уезде. В этом же году мобилизован в армию. Окончил Александровское военное училище (Москва, 1916) и служил в запасном полку в Перми. В это время его семья переехала в Обоянь (Курская губерния). В звании подпоручика летом 1917 года был отправлен на Румынский фронт. После демобилизации (1918) работал учителем в городе Обоянь.",
+                        "en": "In 1915 he was evacuated with his family to the Moscow region, worked as a teacher in the Dmitrovsky district. In the same year he was mobilized into the army. He graduated from the Alexander Military School (Moscow, 1916) and served in a reserve regiment in Perm. At this time, his family moved to Oboyan (Kursk province). In the rank of second lieutenant in the summer of 1917 he was sent to the Romanian front. After demobilization (1918) he worked as a teacher in the city of Oboyan."
+                    }
                 },
                 {
-                    "date": "1921 год",
-                    "title": "Переезд в Минск",
-                    "info": "В мае 1921 года переехал в Минск. В дальнейшем занимался творческой и научной деятельностью."
+                    "date": "1921",
+                    "title": {"ru": "Переезд в Минск", "en": "Moving to Minsk"},
+                    "info": {
+                        "ru": "В мае 1921 года переехал в Минск. В дальнейшем занимался творческой и научной деятельностью.",
+                        "en": "In May 1921 he moved to Minsk. Later he was engaged in creative and scientific activities."
+                    }
                 },
                 {
                     "date": "13.08.1956",
-                    "title": "Смерть",
-                    "info": "В конце жизни много и часто болел, в частности, перенёс 26 воспалений легких. Якуб Колас скоропостижно скончался 13 августа 1956 года. Похоронен на Военном кладбище в Минске."
+                    "title": {"ru": "Смерть", "en": "Death"},
+                    "info": {
+                        "ru": "В конце жизни много и часто болел, в частности, перенёс 26 воспалений легких. Якуб Колас скоропостижно скончался 13 августа 1956 года. Похоронен на Военном кладбище в Минске.",
+                        "en": "At the end of his life he was ill a lot and often, in particular, he suffered 26 pneumonia. Yakub Kolas died suddenly on August 13, 1956. He was buried at the Military Cemetery in Minsk."
+                    }
                 }
             ],
             "slides": [
@@ -54,32 +81,50 @@
             "location": "!1m18!1m12!1m3!1d13294.577138241142!2d27.58222855509651!3d53.91092986619963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcb635886aafadfac!2z0J_QsNC80Y_RgtC90LjQuiDQr9C60YPQsdGDINCa0L7Qu9Cw0YHRgyDQuCDQs9C10YDQvtGP0Lwg0LXQs9C-INC_0YDQvtC40LfQstC10LTQtdC90LjQuQ!5e0!3m2!1sru!2sby!4v1620820106615!5m2!1sru!2sby"
         },
         {
-            "name": "Янка Купала",
+            "name": {"ru": "Янка Купала", "en": "Yanka Kupala"},
             "born": "25.06.1882",
             "died": "28.06.1942",
             "photo": "/images/kupala.jpg",
-            "description": "Белорусский советский поэт и переводчик, драматург, публицист. Классик белорусской литературы. Народный поэт БССР. Академик АН БССР и АН УССР. Лауреат Сталинской премии первой степени.",
-            "info": "Родился Янка Купала (Иван Луцевич) 25 июня (7 июля) 1882 года в фольварке Вязанка Вилейского уезда (теперь – Молодечненский район) в семье арендатора. Закончил Белорусское народное училище. После смерти отца в 1902 году занимался хозяйством, был учителем и писарем, приказчиком, практикантом и даже помощником винокура на частной пивоварне… Все это позволило ему изучить жизнь и обычаи земляков, народное творчество и фольклор.",
+            "description":{
+                "ru": "Белорусский советский поэт и переводчик, драматург, публицист. Классик белорусской литературы. Народный поэт БССР. Академик АН БССР и АН УССР. Лауреат Сталинской премии первой степени.", 
+                "en": "Belarusian Soviet poet and translator, playwright, publicist. Classic of Belarusian literature. People's poet of the BSSR. Academician of the Academy of Sciences of the BSSR and the Academy of Sciences of the Ukrainian SSR. Laureate of the Stalin Prize of the first degree."
+            },
+            "info": {
+                "ru": "Родился Янка Купала (Иван Луцевич) 25 июня (7 июля) 1882 года в фольварке Вязанка Вилейского уезда (теперь – Молодечненский район) в семье арендатора. Закончил Белорусское народное училище. После смерти отца в 1902 году занимался хозяйством, был учителем и писарем, приказчиком, практикантом и даже помощником винокура на частной пивоварне… Все это позволило ему изучить жизнь и обычаи земляков, народное творчество и фольклор.",
+                "en": "Yanka Kupala (Ivan Lutsevich) was born on June 25 (July 7) 1882 in the Vyazanka farm of the Vileika district (now the Molodechno district) in the family of a tenant. Graduated from the Belarusian public school. After the death of his father in 1902, he was engaged in farming, was a teacher and clerk, clerk, trainee and even an assistant to a distiller at a private brewery ... All this allowed him to study the life and customs of his fellow countrymen, folk art and folklore."
+            },
             "timeline": [
                 {
                     "date": "25.06.1882",
                     "title": "Рождение",
-                    "info": "Родился 25 июня 1882 года в деревне Вязынка (ныне Молодечненского района Минской области Белоруссии) в белорусской католической семье Доминика Онуфриевича Луцевича и Бенигны Ивановны Луцевич (урождённой Волосевич)."
+                    "info": {
+                        "ru": "Родился 25 июня 1882 года в деревне Вязынка (ныне Молодечненского района Минской области Белоруссии) в белорусской католической семье Доминика Онуфриевича Луцевича и Бенигны Ивановны Луцевич (урождённой Волосевич).",
+                        "en": "Born on June 25, 1882 in the village of Vyazinka (now the Molodechno district of the Minsk region of Belarus) in the Belarusian Catholic family of Dominik Onufrievich Lutsevich and Benigna Ivanovna Lutsevich (nee Volosevich)."
+                    }
                 },
                 {
-                    "date": "1903—1904 гг.",
+                    "date": "1903—1904",
                     "title": "Первые публикации",
-                    "info": "Первые произведения Купалы — несколько лирических стихотворений на польском языке, опубликованы в 1903—1904 годах в журнале «Ziarno» («Зерно») под псевдонимом «К-а». Первое стихотворение на белорусском языке — «Мая доля» датируется 15 июля 1904 года. Стихотворение «Мужык», опубликованное в 1905 году в минской газете «Северо-Западный край», можно считать успешным дебютом в печати и началом восхождения на литературный белорусский Олимп. Его ранние стихи типичны для фольклора в белорусской поэзии XIX века."
+                    "info": {
+                        "ru": "Первые произведения Купалы — несколько лирических стихотворений на польском языке, опубликованы в 1903—1904 годах в журнале «Ziarno» («Зерно») под псевдонимом «К-а». Первое стихотворение на белорусском языке — «Мая доля» датируется 15 июля 1904 года. Стихотворение «Мужык», опубликованное в 1905 году в минской газете «Северо-Западный край», можно считать успешным дебютом в печати и началом восхождения на литературный белорусский Олимп. Его ранние стихи типичны для фольклора в белорусской поэзии XIX века.",
+                        "en": "The first works of Kupala - several lyric poems in Polish, were published in 1903-1904 in the magazine «Ziarno» («Grain») under the pseudonym «K-a». The first poem in the Belarusian language - «May share» is dated July 15, 1904. The poem «Muzhik», published in 1905 in the Minsk newspaper «North-West Territory», can be considered a successful debut in print and the beginning of the ascent to the literary Belarusian Olympus. His early poems are typical of folklore in Belarusian poetry of the 19th century."
+                    }
                 },
                 {
                     "date": "1922-1942",
                     "title": "Советский период",
-                    "info": "С наступлением советской эпохи лирические настроения Янки Купалы подверглись некоторым изменениям. На первый план в его стихотворениях вышел мотив ожидания светлого будущего; поэт возлагал искренние надежды на коренные изменения в жизни белорусского народа под влиянием новой эпохи. На протяжении двух следующих десятилетий (вплоть до наступления Великой Отечественной войны) выходили в свет следующие лирические сборники белорусского поэта: «Наследство» (1922), «Безымянное» (1925), «Песня строительству» (1936), «Белоруссии орденоносной» (1937), «От сердца» (1940), поэмы «Над рекой Орессой» (1933), «Тарасова доля» (1939) и некоторые другие."
+                    "info": {
+                        "ru": "С наступлением советской эпохи лирические настроения Янки Купалы подверглись некоторым изменениям. На первый план в его стихотворениях вышел мотив ожидания светлого будущего; поэт возлагал искренние надежды на коренные изменения в жизни белорусского народа под влиянием новой эпохи. На протяжении двух следующих десятилетий (вплоть до наступления Великой Отечественной войны) выходили в свет следующие лирические сборники белорусского поэта: «Наследство» (1922), «Безымянное» (1925), «Песня строительству» (1936), «Белоруссии орденоносной» (1937), «От сердца» (1940), поэмы «Над рекой Орессой» (1933), «Тарасова доля» (1939) и некоторые другие.",
+                        "en": "With the onset of the Soviet era, the lyrical mood of Yanka Kupala underwent some changes. The motive of the expectation of a bright future came to the fore in his poems; the poet pinned his sincere hopes on radical changes in the life of the Belarusian people under the influence of the new era. Over the next two decades (up to the onset of the Great Patriotic War), the following lyric collections of the Belarusian poet were published: «Inheritance» (1922), «Nameless» (1925), «Song to Construction» (1936), «Order-Bearing Belarus» (1937), «From the Heart» (1940), the poems «Over the Oressa River» (1933), «Tarasova's Lot» (1939) and some others."
+                    }
                 },
                 {
                     "date": "28.06.1942",
                     "title": "Гибель",
-                    "info": "Янка Купала скончался 28 июня 1942 года в гостинице «Москва», упав в лестничный пролёт между 9-м и 10-м этажами гостиницы, смерть была мгновенной.\n\nОднако смерть Янки Купалы могла оказаться неслучайной, выдвигаются версии о самоубийстве или убийстве с участием спецслужб. Высота перил и то, что поэт не просто скатился по лестнице, а упал в шахту между пролётами, по мнению минских учёных, говорит о возможном убийстве. По другой из версий, в момент гибели поэта с ним видели женщину. Якобы это была Павлина Мядёлка: подруга юности, первая исполнительница роли Павлинки.\n\nЯнка Купала первоначально был погребён на Ваганьковском кладбище в Москве. В 1962 году его прах перенесён в Минск и перезахоронен на Военном кладбище, рядом с могилой матери (умершей на другой день после сына, о гибели которого она в оккупированном Минске так и не узнала). Над могилой Янки Купалы, как и погребённого неподалёку Якуба Коласа, воздвигнут большой мемориал."
+                    "info": {
+                        "ru": "Янка Купала скончался 28 июня 1942 года в гостинице «Москва», упав в лестничный пролёт между 9-м и 10-м этажами гостиницы, смерть была мгновенной.\n\nОднако смерть Янки Купалы могла оказаться неслучайной, выдвигаются версии о самоубийстве или убийстве с участием спецслужб. Высота перил и то, что поэт не просто скатился по лестнице, а упал в шахту между пролётами, по мнению минских учёных, говорит о возможном убийстве. По другой из версий, в момент гибели поэта с ним видели женщину. Якобы это была Павлина Мядёлка: подруга юности, первая исполнительница роли Павлинки.\n\nЯнка Купала первоначально был погребён на Ваганьковском кладбище в Москве. В 1962 году его прах перенесён в Минск и перезахоронен на Военном кладбище, рядом с могилой матери (умершей на другой день после сына, о гибели которого она в оккупированном Минске так и не узнала). Над могилой Янки Купалы, как и погребённого неподалёку Якуба Коласа, воздвигнут большой мемориал.",
+                        "en": "Yanka Kupala died on June 28, 1942 at the Moskva Hotel, falling into a flight of stairs between the 9th and 10th floors of the hotel, death was instantaneous.\n\nHowever, the death of Yanka Kupala could have been no coincidence; versions of suicide or murder with the participation of special services are being put forward. The height of the railings and the fact that the poet did not just slide down the stairs, but fell into the shaft between the spans, according to the Minsk scientists, speaks of a possible murder. According to another version, at the time of the poet's death, a woman was seen with him. Allegedly, it was Pavlina Myadelka: a friend of her youth, the first performer of the role of Pavlinka.\n\nYanka Kupala was originally buried at the Vagankovsky cemetery in Moscow. In 1962, his ashes were transferred to Minsk and reburied at the Military Cemetery, next to the grave of his mother (who died the day after her son, whose death she did not know about in occupied Minsk). A large memorial has been erected over the grave of Yanka Kupala, as well as Yakub Kolas, who was buried nearby."
+                    }
                 }
             ],
             "slides": [
@@ -91,47 +136,74 @@
             "location": "!1m18!1m12!1m3!1d3309.248962488218!2d27.193809494623803!3d54.09161043165351!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbec6ae8c4ab93%3A0x8c786160fcb7fc20!2z0JzRg9C30LXQuSDQr9C90LrRliDQmtGD0L_QsNC70Ys!5e0!3m2!1sru!2sby!4v1620825369360!5m2!1sru!2sby"
         },
         {
-            "name": "Пётр Устинович Бровка",
+            "name": {"ru": "Пётр Устинович Бровка", "en": "Pyotr Ustinovich Brovka"},
             "born": "12.06.1905",
             "died": "24.03.1980",
             "photo": "/images/brouka.jpg",
-            "description": "Белорусский советский писатель, поэт и переводчик, драматург, публицист. Народный поэт БССР. Академик АН БССР. Лауреат Ленинской и двух Сталинских премий. Депутат ВС СССР с 1956 года. Член ВКП с 1940 года.",
-            "info": "Литературной деятельностью занимался с 1926 года. Дебютировал в газете «Чырвоная Полаччына» и в литературном альманахе «Наддзвінне».\n\nОпубликовал ряд книг стихов и поэм: «К родным берегам», «Избранные стихи и поэмы» (1934), «Приход героя» (1935), «Весна родины» (1937), «Путями боровыми» (1940). Подвиг народа, его мужество и стойкость Бровка отразил в лиро-эпических поэмах «Беларусь» (1943), «Поэма про Смолячкова» (1942), стихах «Будем сеять, белорусы!», «Кастусь Калиновский», «Надя-Надейка», «Могила бойца». Поэмы «Ясный Кут», «Полонянка» (1945), «Хлеб» (1946), стихи «Парк Победы», «Смерть героя», «Кузнец» отмечены тонким лиризмом, ярким национальным колоритом.\n\nВ 1957 году написал роман «Когда сливаются реки», посвящённый строительству ГЭС на границе трёх республик, дружбе белорусов, литовцев и латышей.\n\nПереводил на белорусский язык произведения Т. Шевченко, В. Маяковского, П. Тычины, М. Бажана, А. Твардовского, М. Исаковского, А. Прокофьева, В. Броневского, Дж. Байрона.",
+            "description": {
+                "ru": "Белорусский советский писатель, поэт и переводчик, драматург, публицист. Народный поэт БССР. Академик АН БССР. Лауреат Ленинской и двух Сталинских премий. Депутат ВС СССР с 1956 года. Член ВКП с 1940 года.", 
+                "en": "Belarusian Soviet writer, poet and translator, playwright, publicist. People's poet of the BSSR. Academician of the Academy of Sciences of the BSSR. Laureate of the Lenin and two Stalin prizes. Member of the USSR Armed Forces since 1956. Member of the CPSU since 1940."
+            },
+            "info": {
+                "ru": "Литературной деятельностью занимался с 1926 года. Дебютировал в газете «Чырвоная Полаччына» и в литературном альманахе «Наддзвінне».\n\nОпубликовал ряд книг стихов и поэм: «К родным берегам», «Избранные стихи и поэмы» (1934), «Приход героя» (1935), «Весна родины» (1937), «Путями боровыми» (1940). Подвиг народа, его мужество и стойкость Бровка отразил в лиро-эпических поэмах «Беларусь» (1943), «Поэма про Смолячкова» (1942), стихах «Будем сеять, белорусы!», «Кастусь Калиновский», «Надя-Надейка», «Могила бойца». Поэмы «Ясный Кут», «Полонянка» (1945), «Хлеб» (1946), стихи «Парк Победы», «Смерть героя», «Кузнец» отмечены тонким лиризмом, ярким национальным колоритом.\n\nВ 1957 году написал роман «Когда сливаются реки», посвящённый строительству ГЭС на границе трёх республик, дружбе белорусов, литовцев и латышей.\n\nПереводил на белорусский язык произведения Т. Шевченко, В. Маяковского, П. Тычины, М. Бажана, А. Твардовского, М. Исаковского, А. Прокофьева, В. Броневского, Дж. Байрона.",
+                "en": "He has been engaged in literary activity since 1926. He made his debut in the newspaper «Chyrvona Polachchyn» and in the literary anthology «Naddzvinne».\n\nHe published a number of books of poems and poems: «To the native shores», «Selected Poems and Poems» (1934), «The Coming of a Hero» (1935), «Spring of the Motherland» (1937), «In Pine Paths» (1940). The heroic deed of the people, their courage and resilience Brovka reflected in the lyric-epic poems «Belarus» (1943), «Poem about Smolyachkov» (1942), the verses «Let's sow, Belarusians!», «Kastus Kalinovsky», «Nadya-Nadeyka», «The grave of a soldier». The poems «Yasny Kut», «Polonyanka» (1945), «Bread» (1946), the poems «Victory Park», «Death of a Hero», «Blacksmith» are marked by subtle lyricism, bright national flavor.\n\nIn 1957 he wrote a novel «When the rivers merge», dedicated to the construction of hydroelectric power plants on the border of three republics, the friendship of Belarusians, Lithuanians and Latvians.\n\nHe translated into Belarusian the works of T. Shevchenko, V. Mayakovsky, P. Tychina, M. Bazhan, A. Tvardovsky, M. Isakovsky, A. Prokofiev, V. Bronevsky, J. Byron."
+            },
             "timeline": [
                 {
                     "date": "12.06.1905",
-                    "title": "Рождение",
-                    "info": "Родился 12 июня 1905 года в деревне Путилковичи (ныне Ушачский район, Витебская область, Беларусь) в крестьянской семье (9 детей). Отец — Устин Адамович. Мать — Алёна Степановна. Окончил церковно-приходскую школу в Лепеле."
+                    "title": {"ru": "Рождение", "en": "Birth"},
+                    "info": {
+                        "ru": "Родился 12 июня 1905 года в деревне Путилковичи (ныне Ушачский район, Витебская область, Беларусь) в крестьянской семье (9 детей). Отец — Устин Адамович. Мать — Алёна Степановна. Окончил церковно-приходскую школу в Лепеле.",
+                        "en": "Born on June 12, 1905 in the village of Putilkovichi (now Ushachsky district, Vitebsk region, Belarus) in a peasant family (9 children). Father - Ustin Adamovich. Mother - Alena Stepanovna. Graduated from the parish school in Lepel."
+                    }
                 },
                 {
-                    "date": "1918—1928 гг.",
-                    "title": "Работа",
-                    "info": "В 1918—1924 годах работал переписчиком, делопроизводителем и счетоводом. В 1925—1927 годах был завотделом Окружкома комсомола в Полоцке. В 1927—1928 годах — ответственным секретарём редакции газеты «Чырвоная Полаччына»."
+                    "date": "1918—1928",
+                    "title": {"ru": "Работа", "en": "Job"},
+                    "info": {
+                        "ru": "В 1918—1924 годах работал переписчиком, делопроизводителем и счетоводом. В 1925—1927 годах был завотделом Окружкома комсомола в Полоцке. В 1927—1928 годах — ответственным секретарём редакции газеты «Чырвоная Полаччына».",
+                        "en": "In 1918-1924 he worked as a censor, clerk and bookkeeper. In 1925-1927 he was the head of department of the Okruzhkom of the Komsomol in Polotsk. In 1927-1928 he was the executive secretary of the editorial board of the newspaper «Chyrvonaya Polachchina»."
+                    }
                 },
                 {
-                    "date": "1931 год",
-                    "title": "Окончание университета",
-                    "info": "Окончил педагогический факультет БГУ"
+                    "date": "1931",
+                    "title": {"ru": "Окончание университета", "en": "Graduation"},
+                    "info": {
+                        "ru": "Окончил педагогический факультет БГУ",
+                        "en": "Graduated from the pedagogical faculty of BSU"
+                    }
                 },
                 {
-                    "date": "1941—1945 гг.",
-                    "title": "Военные годы",
-                    "info": "В 1941—1942 году служил в РККА, работал во фронтовой и партизанской печати. В 1943—1945 годах был ответственным секретарём СП БССР, в 1948—1967 годы — председателем Правления СП БССР."
+                    "date": "1941—1945",
+                    "title": {"ru": "Военные годы", "en": "War years"},
+                    "info": {
+                        "ru": "В 1941—1942 году служил в РККА, работал во фронтовой и партизанской печати. В 1943—1945 годах был ответственным секретарём СП БССР, в 1948—1967 годы — председателем Правления СП БССР.",
+                        "en": "In 1941-1942 he served in the Red Army, worked in the front and partisan press. In 1943-1945 he was the executive secretary of the JV of the BSSR, in 1948-1967 - the chairman of the Board of the JV of the BSSR."
+                    }
                 },
                 {
-                    "date": "1945—1948 гг.",
-                    "title": "Послевоенные годы",
-                    "info": "Главный редактор литературного журнала «Полымя»."
+                    "date": "1945—1948",
+                    "title": {"ru": "Послевоенные годы", "en": "Post-war years"},
+                    "info": {
+                        "ru": "Главный редактор литературного журнала «Полымя».",
+                        "en": "Chief editor of the literary magazine «Polymya»."
+                    }
                 },
                 {
-                    "date": "1967—1980 гг.",
-                    "title": "Работа редактором",
-                    "info": "Главный редактор Белорусской советской энциклопедии (ныне — «Белорусская Энциклопедия имени П. Бровки»)."
+                    "date": "1967—1980",
+                    "title": {"ru": "Работа редактором", "en": "Working as an editor"},
+                    "info": {
+                        "ru": "Главный редактор Белорусской советской энциклопедии (ныне — «Белорусская Энциклопедия имени П. Бровки»).",
+                        "en": "Chief editor of the Belarusian Soviet Encyclopedia (now «P. Brovka Belarusian Encyclopedia»)."
+                    }
                 },
                 {
                     "date": "24.03.1980",
-                    "title": "Смерть",
-                    "info": "П. У. Бровка умер 24 марта 1980 года в Минске. Похоронен на Восточном кладбище.Сын — Юрий Петрович Бровка (1936), доктор юридических наук, профессор БГУ."
+                    "title": {"ru": "Смерть", "en": "Death"},
+                    "info": {
+                        "ru": "П. У. Бровка умер 24 марта 1980 года в Минске. Похоронен на Восточном кладбище.Сын — Юрий Петрович Бровка (1936), доктор юридических наук, профессор БГУ.",
+                        "en": "P.U. Brovka died on March 24, 1980 in Minsk. Buried at the Eastern Cemetery. Son - Yuri Petrovich Brovka (1936), Doctor of Law, Professor of the Belarusian State University."
+                    }
                 }
             ],
             "slides": [
@@ -143,32 +215,58 @@
             "location": "!1m18!1m12!1m3!1d1976.816190596623!2d27.559625153211694!3d53.898978784526165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfc17d85a9ad%3A0xc02659e9771bc5ec!2z0JvQuNGC0LXRgNCw0YLRg9GA0L3Ri9C5INC80YPQt9C10Lkg0J_QtdGC0YDRg9GB0Y8g0JHRgNC-0LLQutC4!5e0!3m2!1sru!2sby!4v1620826231170!5m2!1sru!2sby"
         },
         {
-            "name": "Максим Адамович Богданович",
+            "name": {"ru": "Максим Адамович Богданович", "en": "Maxim Adamovich Bogdanovich"},
             "born": "09.12.1891",
             "died": "25.05.1917",
             "photo": "/images/bogdanovich.jpg",
-            "description": "Белорусский поэт, публицист, литературовед, переводчик; классик белорусской литературы, один из создателей белорусской литературы и современного литературного белорусского языка.",
-            "info": "Максим Богданович родился в Минске в семье этнографа и историка Адама Богдановича. Отец с детства занимался с мальчиком, стараясь дать ему максимально обширные знания. В студенческие годы Максим главным образом изучал языки и литературу.\n\nБогданович прожил очень короткую жизнь и умер от туберкулеза в 25 лет. Но тем не менее он стоял у истоков белорусской литературы и современного литературного белорусского языка.\n\nВ Минске поэт организовывал кружки молодежи, которые стали центром общественно-просветительной жизни города. В 1913 году вышел его сборник «Вянок», более 50 стихотворений Богдановича было напечатано в различных изданиях, таких как «Наша Ніва», «Вольная Беларусь». Многие произведения сохранились в рукописях.",
+            "description": {
+                "ru": "Белорусский поэт, публицист, литературовед, переводчик; классик белорусской литературы, один из создателей белорусской литературы и современного литературного белорусского языка.", 
+                "en": "Belarusian poet, publicist, literary critic, translator; classic of Belarusian literature, one of the founders of Belarusian literature and modern literary Belarusian language."
+            },
+            "info": {
+                "ru": "Максим Богданович родился в Минске в семье этнографа и историка Адама Богдановича. Отец с детства занимался с мальчиком, стараясь дать ему максимально обширные знания. В студенческие годы Максим главным образом изучал языки и литературу.\n\nБогданович прожил очень короткую жизнь и умер от туберкулеза в 25 лет. Но тем не менее он стоял у истоков белорусской литературы и современного литературного белорусского языка.\n\nВ Минске поэт организовывал кружки молодежи, которые стали центром общественно-просветительной жизни города. В 1913 году вышел его сборник «Вянок», более 50 стихотворений Богдановича было напечатано в различных изданиях, таких как «Наша Ніва», «Вольная Беларусь». Многие произведения сохранились в рукописях.",
+                "en": "Maxim Bogdanovich was born in Minsk in the family of ethnographer and historian Adam Bogdanovich. From childhood, the father worked with the boy, trying to give him the most extensive knowledge. During his student years, Maxim mainly studied languages ​​and literature.\n\nBogdanovich lived a very short life and died of tuberculosis at the age of 25. Nevertheless, he stood at the origins of the Belarusian literature and the modern literary Belarusian language.\n\nIn Minsk, the poet organized youth circles, which became the center of the city's social and educational life. In 1913, his collection «Vianok» was published, more than 50 poems by Bogdanovich were published in various publications, such as «Nasha Niva», «Free Belarus». Many works have been preserved in manuscripts."
+            },
             "timeline": [
                 {
-                    "date": "22.10.1882",
-                    "title": "Рождение",
-                    "info": "Родился в деревне Акинчицы, в православной семье лесника Михаила Казимировича (Михася) Мицкевича и домохозяйки Анны Юрьевны Лосик. Предки по отцовской линии — католики."
+                    "date": "1896",
+                    "title": {"ru": "Переезд", "en": "Relocation"},
+                    "info": {
+                        "ru": "В ноябре 1896 года Адам Богданович с детьми переехал по службе в Нижний Новгород. Здесь у него завязались дружеские отношения с Максимом Горьким, с которым они вскоре породнились, женившись на сёстрах Волжиных. Горький часто бывал у них дома, он оказал влияние на любовь мальчика к литературе.",
+                        "en": "In November 1896, Adam Bogdanovich with his children moved to Nizhny Novgorod for service. Here he struck up a friendly relationship with Maxim Gorky, with whom they soon became related, having married the Volzhin sisters. Gorky often visited their home, he influenced the boy's love for literature."
+                    }
                 },
                 {
-                    "date": "22.10.1882",
-                    "title": "Рождение",
-                    "info": "Родился в деревне Акинчицы, в православной семье лесника Михаила Казимировича (Михася) Мицкевича и домохозяйки Анны Юрьевны Лосик. Предки по отцовской линии — католики."
+                    "date": "1911",
+                    "title": {"ru": "Окончание гимназии", "en": "Graduation from gymnasium"},
+                    "info": {
+                        "ru": "Окончив в 1911 году Нижегородскую гимназию, Максим Богданович посещает Вильню, знакомится с Вацлавом Ластовским, Антоном и Иваном Луцкевичами и другими деятелями белорусского Возрождения. Под впечатлением от посещения музея братьев Луцкевичей с коллекциями древних раритетов он пишет стихотворение \"Слуцкие ткачихи\".\n\nВ том же году Максим Богданович намеревался поступить на Филологический факультет Петербургского университета, но из-за недостатка средств и сырого климата столицы, возвращается в Ярославль к отцу, поступив в Демидовский юридический лицей.",
+                        "en": "After graduating from the Nizhny Novgorod gymnasium in 1911, Maxim Bogdanovich visits Vilna, meets Vaclav Lastovsky, Anton and Ivan Lutskevich and other figures of the Belarusian Renaissance. Impressed by his visit to the museum of the Lutskevich brothers with collections of ancient rarities, he wrote the poem \"Slutsk weavers\".\n\nIn the same year, Maxim Bogdanovich intended to enter the Philological Faculty of St. Petersburg University, but due to a lack of funds and the damp climate of the capital, he returned to Yaroslavl to his father, entering the Demidov Legal Lyceum."
+                    }
                 },
                 {
-                    "date": "22.10.1882",
-                    "title": "Рождение",
-                    "info": "Родился в деревне Акинчицы, в православной семье лесника Михаила Казимировича (Михася) Мицкевича и домохозяйки Анны Юрьевны Лосик. Предки по отцовской линии — католики."
+                    "date": "1914",
+                    "title": {"ru": "Издание сборника произведений", "en": "Publication of a collection of works"},
+                    "info": {
+                        "ru": "В Вильне, в начале 1914 года в типографии Мартина Кухты при денежной поддержке Ивана Луцкевича и Марии Магдалены Радзивилл тиражом 2000 экземпляров издан единственный прижизненный сборник произведений Максима Богдановича \"Венок\" (на титуле обозначен 1913 год).",
+                        "en": "In Vilna, at the beginning of 1914, in the printing house of Martin Kukhta, with the financial support of Ivan Lutskevich and Maria Magdalena Radziwill, the only lifetime collection of works by Maxim Bogdanovich \"Wreath\" was published in a circulation of 2,000 (the title indicates 1913)."
+                    }
                 },
                 {
-                    "date": "22.10.1882",
-                    "title": "Рождение",
-                    "info": "Родился в деревне Акинчицы, в православной семье лесника Михаила Казимировича (Михася) Мицкевича и домохозяйки Анны Юрьевны Лосик. Предки по отцовской линии — католики."
+                    "date": "1916",
+                    "title": {"ru": "Возвращение в Минск", "en": "Return to Minsk"},
+                    "info": {
+                        "ru": "Летом 1916 года, закончив лицей, Максим Богданович вернулся в Минск. Хотя он был уже тяжело болен, но много работает в Минской губернском продовольственном комитете и в Белорусском комитете помощи жертвам войны, а свободное время отдает литературному творчеству и организации молодежных кружков, которым старается придать общественно-просветительный и национально-революционный характер.\n\nВ это время Максим Богданович написал такие знаменитые произведения, как \"Потерянный лебедь\" и \"Погоня\", ставшее национальным гимном.",
+                        "en": "In the summer of 1916, after graduating from the Lyceum, Maxim Bogdanovich returned to Minsk. Although he was already seriously ill, he worked a lot in the Minsk Provincial Food Committee and the Belarusian Committee for Aid to War Victims, and devoted his free time to literary creativity and the organization of youth circles, which he tried to give a social and educational and national revolutionary character.\n\nAt this time, Maxim Bogdanovich wrote such famous works as \"The Lost Swan\" and \"The Pursuit\", which became the national anthem."
+                    }
+                },
+                {
+                    "date": "1917",
+                    "title": {"ru": "Смерть", "en": "Death"},
+                    "info": {
+                        "ru": "В феврале 1917 года друзья поэта собрали деньги, чтобы он мог ехать в Крым лечиться от туберкулёза. Но лечение не помогло. Умер Максим Богданович на рассвете 25 мая 1917 года в возрасте 25 лет.",
+                        "en": "In February 1917, the poet's friends raised money so that he could go to the Crimea to be treated for tuberculosis. But the treatment didn't help. Maxim Bogdanovich died at dawn on May 25, 1917 at the age of 25."
+                    }
                 }
             ],
             "slides": [
@@ -179,32 +277,58 @@
             "location": "!1m18!1m12!1m3!1d2362.737534025029!2d23.83677979384517!3d53.68730309623625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dfd62240c9de21%3A0xbded5b8b25adf56!2z0JzRg9C30LXQuSDQnNCw0LrRgdC40LzQsCDQkdC-0LPQtNCw0L3QvtCy0LjRh9Cw!5e0!3m2!1sru!2sby!4v1620838862977!5m2!1sru!2sby"
         },
         {
-            "name": "Максим Танк",
+            "name": {"ru": "Максим Танк", "en": "Maxim Tank"},
             "born": "04.09.1912",
             "died": "07.08.1995",
             "photo": "/images/tank.jpg",
-            "description": "Белорусский советский поэт, переводчик, государственный деятель. Народный поэт Белорусской ССР. Герой Социалистического Труда. Лауреат Государственной премии Белорусской ССР имени Янки Купалы. Академик АН Белорусской ССР.",
-            "info": "Макси́м Танк (белор. Максім Танк, имя при рождении Евгений Иванович Скурко; 4 сентября 1912, деревня Пильковщина, Виленская губерния, Российская империя — 7 августа 1995, Минск, Белоруссия) — белорусский советский поэт, переводчик, государственный деятель. Народный поэт Белорусской ССР (1968). Герой Социалистического Труда (1974). Лауреат Ленинской (1978) и Сталинской премии второй степени (1948). Лауреат Государственной премии Белорусской ССР имени Янки Купалы (1966). Академик АН Белорусской ССР (1972). Член КПЗБ с 1936 года. Председатель Верховного Совета Белорусской ССР (1965—1971).",
+            "description": {
+                "ru": "Белорусский советский поэт, переводчик, государственный деятель. Народный поэт Белорусской ССР. Герой Социалистического Труда. Лауреат Государственной премии Белорусской ССР имени Янки Купалы. Академик АН Белорусской ССР.", 
+                "en": "Belarusian Soviet poet, translator, statesman. People's poet of the Byelorussian SSR. Hero of Socialist Labor. Laureate of the Yanka Kupala State Prize of the Byelorussian SSR. Academician of the Academy of Sciences of the Byelorussian SSR."
+            },
+            "info": {
+                "ru": "Макси́м Танк (белор. Максім Танк, имя при рождении Евгений Иванович Скурко; 4 сентября 1912, деревня Пильковщина, Виленская губерния, Российская империя — 7 августа 1995, Минск, Белоруссия) — белорусский советский поэт, переводчик, государственный деятель. Народный поэт Белорусской ССР (1968). Герой Социалистического Труда (1974). Лауреат Ленинской (1978) и Сталинской премии второй степени (1948). Лауреат Государственной премии Белорусской ССР имени Янки Купалы (1966). Академик АН Белорусской ССР (1972). Член КПЗБ с 1936 года. Председатель Верховного Совета Белорусской ССР (1965—1971).", 
+                "en": "Maxim Tank (Belarusian. Maxim Tank, birth name Evgeny Ivanovich Skurko; September 4, 1912, the village of Pilkovshchina, Vilna province, Russian Empire - August 7, 1995, Minsk, Belarus) - Belarusian Soviet poet, translator, statesman. People's poet of the Byelorussian SSR (1968). Hero of Socialist Labor (1974). Laureate of the Lenin (1978) and Stalin Prizes of the second degree (1948). Laureate of the Yanka Kupala State Prize of the Byelorussian SSR (1966). Academician of the Academy of Sciences of the Byelorussian SSR (1972). Member of the KPZB since 1936. Chairman of the Supreme Soviet of the Byelorussian SSR (1965-1971)."
+            },
             "timeline": [
                 {
-                    "date": "22.10.1882",
+                    "date": "04.09.1912",
                     "title": "Рождение",
-                    "info": "Родился в деревне Акинчицы, в православной семье лесника Михаила Казимировича (Михася) Мицкевича и домохозяйки Анны Юрьевны Лосик. Предки по отцовской линии — католики."
+                    "info": {
+                        "ru": "Родился 4 сентября 1912 года в селе Пильковщина (ныне Мядельского района Минской области Беларуси) в крестьянской семье.",
+                        "en": "Born on September 4, 1912 in the village of Pilkovshchina (now the Myadel district of the Minsk region of Belarus) into a peasant family."
+                    }
                 },
                 {
-                    "date": "22.10.1882",
-                    "title": "Рождение",
-                    "info": "Родился в деревне Акинчицы, в православной семье лесника Михаила Казимировича (Михася) Мицкевича и домохозяйки Анны Юрьевны Лосик. Предки по отцовской линии — католики."
+                    "date": "1932—1934",
+                    "title": "Аресты",
+                    "info": {
+                        "ru": "Принимал активное участие в политической жизни Западной Белоруссии в межвоенный период. Арестовывался польскими властями в 1932 и в 1934 годах.",
+                        "en": "He took an active part in the political life of Western Belarus in the interwar period. Arrested by the Polish authorities in 1932 and 1934."
+                    }
                 },
                 {
-                    "date": "22.10.1882",
-                    "title": "Рождение",
-                    "info": "Родился в деревне Акинчицы, в православной семье лесника Михаила Казимировича (Михася) Мицкевича и домохозяйки Анны Юрьевны Лосик. Предки по отцовской линии — католики."
+                    "date": "1939—1945",
+                    "title": "Работа корреспондентом",
+                    "info": {
+                        "ru": "После воссоединения Западной Белоруссии и Белорусской ССР Максим Танк являлся корреспондентом в газете «Вилейская правда». В 1940 году принят в СП СССР. В годы Великой Отечественной войны продолжал работать во фронтовой печати.",
+                        "en": "After the reunification of Western Belarus and the Byelorussian SSR, Maxim Tank was a correspondent for the newspaper Vileiskaya Pravda. In 1940 he was admitted to the USSR Joint Venture. During the Great Patriotic War, he continued to work in the front-line press."
+                    }
                 },
                 {
-                    "date": "22.10.1882",
-                    "title": "Рождение",
-                    "info": "Родился в деревне Акинчицы, в православной семье лесника Михаила Казимировича (Михася) Мицкевича и домохозяйки Анны Юрьевны Лосик. Предки по отцовской линии — католики."
+                    "date": "1945—1966",
+                    "title": "Работа редактором",
+                    "info": {
+                        "ru": "В 1945—1948 годы Максим Танк являлся редактором в юмористическом журнале «Вожык». В 1948—1966 годы — главный редактор белорусского литературного журнала «Полымя».",
+                        "en": "In 1945-1948 Maxim Tank was the editor of the comic magazine Vozhyk. In 1948-1966 - editor-in-chief of the Belarusian literary magazine Polymya."
+                    }
+                },
+                {
+                    "date": "07.08.1995",
+                    "title": "Смерть",
+                    "info": {
+                        "ru": "Максим Танк умер в Минске 7 августа 1995 года. Похоронен в родном селе.",
+                        "en": "Maxim Tank died in Minsk on August 7, 1995. Buried in his native village."
+                    }
                 }
             ],
             "slides": [
@@ -218,32 +342,58 @@
             "location": "!1m18!1m12!1m3!1d5475.573218089332!2d27.088725962724986!3d54.75895826757577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dc902218b09773%3A0x9b05217b61493db!2z0JvQuNGC0LXRgNCw0YLRg9GA0L3Qvi3QutGA0LDQtdCy0LXQtNGH0LXRgdC60LjQuSDQvNGD0LfQtdC5INC40LzQtdC90Lgg0JzQsNC60YHQuNC80LAg0KLQsNC90LrQsA!5e0!3m2!1sru!2sby!4v1620839999394!5m2!1sru!2sby"
         },
         {
-            "name": "Пимен Емельянович Панченко",
+            "name": {"ru": "Пимен Емельянович Панченко", "en": "Pimen Yemelyanovich Panchenko"},
             "born": "10.08.1917",
             "died": "02.04.1995",
             "photo": "/images/panchenko.jpg",
-            "description": "Белорусский советский поэт и переводчик, публицист. Народный поэт БССР. Член СП СССР. Член ВКП с 1943 года.",
-            "info": "Родился 10 августа 1917 года в Ревеле (ныне Таллин, Эстония) в крестьянской семье, куда его родители переехали из Бегомля в поисках заработка. Семья была в очень тяжёлом положении: отец Пимена был на фронте и мать, Дарья Фокеевна, осталась одна с двумя детьми в неродном городе. В 1920 году она вместе с детьми вернулась на свою родину в Бегомль, в котором Пимен и провёл детство.\n\nВ 1933 году семья переехала в Бобруйск. Пимен начал работать на деревообрабатывающем комбинате, а после поступил на учительские курсы. Через год, окончив курсы, начал работать учителем в школах Бобруйского и Кировского районов. Одновременно учился на заочном отделении филологического факультета Минского учительского института, который закончил в 1939 году. Член Союза писателей СССР с 1938 года.\n\nС сентября 1939 по январь 1946 года служил специальным корреспондентом и писателем в армейских газетах. Призван Сталинским РВК г. Минска.\n\nПринимал участие в Польском походе РККА 1939 года, во время Великой Отечественной войны был на фронтах — Брянском, Калининском и Северо-Западном. Работал во фронтовых газетах «За свабодную Беларусь», сатирической «Партызанскай дубінцы», а также в газете «Героический штурм».\n\nПриказом ВС Калинского фронта №: 7 от: 06.01.1943 года интендант 3-го ранга Панченко Пимен Емельянович, писатель газеты «За свободную Беларусь», награждён медалью «За боевые заслуги».\n\nВ 1944 году был в Иране.\n\nПосле демобилизации в 1946 году вернулся в Минск и начал работать в журнале «Вожык». Позже перешёл в газету «Літаратура і мастацтва» (бел. Литература и искусство). С 1953 по 1958 годы работал редактором альманаха «Советская Отчизна». Возглавлял журнал «Маладосць» (бел. Молодость). В 1958 году — в составе белорусской делегации на XII сессии Генассамблеи ООН. В 1966 году был назначен секретарём правления СП БССР. Был депутатом ВС БССР 5, 6, 8 созывов. Член ПЕН-клуба (1989). Подписал открытое письмо М. Горбачёву о белорусском языке (1986).\n\nУмер 2 апреля 1995 года. Похоронен в Минске на Восточном кладбище.",
+            "description": {
+                "ru": "Белорусский советский поэт и переводчик, публицист. Народный поэт БССР. Член СП СССР. Член ВКП с 1943 года.", 
+                "en": "Belarusian Soviet poet and translator, publicist. People's poet of the BSSR. Member of the USSR JV. Member of the CPSU since 1943."
+            },
+            "info": {
+                "ru": "Пимен Емельянович (родился 10.08.1917, Таллин), белорусский советский поэт, народный поэт БССР (1973). Член КПСС с 1943. Участник Великой Отечественной войны 1941-45. Окончил Минский учительский институт (1939). Печатается с 1934. Первые сборники - 'Уверенность' (1938) и 'Сентябрьские знамена' (1940). Стихи военных лет собраны в книгах 'Дорога войны' (1942) и 'Далёкие станции' (1945); за ними последовали сборники: 'Присяга' (1949), 'Широкий мир' (1955), 'Книга путешествий и любви' (1959), 'Нью-Йоркские зарисовки' (1960), 'Тысяча небосклонов' (1962), 'При свете молний' (1966, Государственная премия БССР им. Я. Купалы, 1967), 'Декабрь' (1972). В поэзии П. - единство лирики и публицистики, пафоса и иронии, острой злободневности и нравственной проблематики. Его стихи переведены на многие языки народов СССР и иностранные языки. Депутат Верховного Совета БССР 5-го, 6-го и 8-го созывов. Член правления СП СССР. Награжден 4 орденами, а также медалями.", 
+                "en": "Pimen Yemelyanovich (born 08/10/1917, Tallinn), Belarusian Soviet poet, people's poet of the BSSR (1973). Member of the CPSU since 1943. Member of the Great Patriotic War of 1941-45. Graduated from the Minsk Teachers' Institute (1939). Published since 1934. The first collections - 'Confidence' (1938) and 'September Banners' (1940). Poems of the war years are collected in the books 'The Road of War' (1942) and 'Distant Stations' (1945); they were followed by collections: 'Oath' (1949), 'Wide World' (1955), 'Book of Travel and Love' (1959), 'New York Sketches' (1960),' A Thousand Sky '(1962),' At light of lightning '(1966, State Prize of the BSSR named after Y. Kupala, 1967),' December '(1972). In poetry P. - the unity of lyricism and journalism, pathos and irony, acute topicality and moral problems. His poems have been translated into many languages ​​of the peoples of the USSR and foreign languages. Deputy of the Supreme Soviet of the BSSR of the 5th, 6th and 8th convocations. Member of the Board of the USSR Joint Venture. He was awarded 4 orders and medals."
+            },
             "timeline": [
                 {
-                    "date": "22.10.1882",
+                    "date": "10.08.1917",
                     "title": "Рождение",
-                    "info": "Родился в деревне Акинчицы, в православной семье лесника Михаила Казимировича (Михася) Мицкевича и домохозяйки Анны Юрьевны Лосик. Предки по отцовской линии — католики."
+                    "info": {
+                        "ru": "Родился 10 августа 1917 года в Ревеле (ныне Таллин, Эстония) в крестьянской семье, куда его родители переехали из Бегомля в поисках заработка. Семья была в очень тяжёлом положении: отец Пимена был на фронте и мать, Дарья Фокеевна, осталась одна с двумя детьми в неродном городе. В 1920 году она вместе с детьми вернулась на свою родину в Бегомль, в котором Пимен и провёл детство.",
+                        "en": "Born on August 10, 1917 in Reval (now Tallinn, Estonia) into a peasant family, where his parents moved from Begoml in search of work. The family was in a very difficult situation: Pimen's father was at the front and his mother, Daria Fokeevna, was left alone with two children in a non-native city. In 1920, she and her children returned to her homeland in Begoml, where Pimen spent his childhood."
+                    }
                 },
                 {
-                    "date": "22.10.1882",
-                    "title": "Рождение",
-                    "info": "Родился в деревне Акинчицы, в православной семье лесника Михаила Казимировича (Михася) Мицкевича и домохозяйки Анны Юрьевны Лосик. Предки по отцовской линии — католики."
+                    "date": "1933",
+                    "title": "Переезд в Бобруйск, ",
+                    "info": {
+                        "ru": "В 1933 году семья переехала в Бобруйск. Пимен начал работать на деревообрабатывающем комбинате, а после поступил на учительские курсы. Через год, окончив курсы, начал работать учителем в школах Бобруйского и Кировского районов. Одновременно учился на заочном отделении филологического факультета Минского учительского института, который закончил в 1939 году.",
+                        "en": "In 1933 the family moved to Bobruisk. Pimen started working at a woodworking plant, and then entered a teacher's courses. A year later, after graduating from the courses, he began to work as a teacher in schools in the Bobruisk and Kirov regions. At the same time he studied at the correspondence department of the philological faculty of the Minsk Teachers' Institute, which he graduated in 1939."
+                    }
                 },
                 {
-                    "date": "22.10.1882",
-                    "title": "Рождение",
-                    "info": "Родился в деревне Акинчицы, в православной семье лесника Михаила Казимировича (Михася) Мицкевича и домохозяйки Анны Юрьевны Лосик. Предки по отцовской линии — католики."
+                    "date": "1939—1946",
+                    "title": "Служба корреспондентом",
+                    "info": {
+                        "ru": "С сентября 1939 по январь 1946 года служил специальным корреспондентом и писателем в армейских газетах. Призван Сталинским РВК г. Минска. Принимал участие в Польском походе РККА 1939 года, во время Великой Отечественной войны был на фронтах — Брянском, Калининском и Северо-Западном. Работал во фронтовых газетах «За свабодную Беларусь», сатирической «Партызанскай дубінцы», а также в газете «Героический штурм».",
+                        "en": "From September 1939 to January 1946 he served as a special correspondent and writer for the army newspapers. Called up by the Stalinist RVC in Minsk. He took part in the Polish campaign of the Red Army in 1939, during the Great Patriotic War he was on the fronts - Bryansk, Kalinin and North-West. He worked in the front-line newspapers «For Free Belarus», the satirical «Partyzansky Dubintsy», as well as in the newspaper «Heroic Storm»."
+                    }
                 },
                 {
-                    "date": "22.10.1882",
-                    "title": "Рождение",
-                    "info": "Родился в деревне Акинчицы, в православной семье лесника Михаила Казимировича (Михася) Мицкевича и домохозяйки Анны Юрьевны Лосик. Предки по отцовской линии — католики."
+                    "date": "1946—1989",
+                    "title": "Деятельность после демобилизации",
+                    "info": {
+                        "ru": "После демобилизации в 1946 году вернулся в Минск и начал работать в журнале «Вожык». Позже перешёл в газету «Літаратура і мастацтва» (бел. Литература и искусство). С 1953 по 1958 годы работал редактором альманаха «Советская Отчизна». Возглавлял журнал «Маладосць» (бел. Молодость). В 1958 году — в составе белорусской делегации на XII сессии Генассамблеи ООН. В 1966 году был назначен секретарём правления СП БССР. Был депутатом ВС БССР 5, 6, 8 созывов. Член ПЕН-клуба (1989). Подписал открытое письмо М. Горбачёву о белорусском языке (1986).",
+                        "en": "After demobilization in 1946 he returned to Minsk and started working for the magazine «Vozhyk». Later he moved to the newspaper «Literature and Art» (Belarusian Literature and Art). From 1953 to 1958 he worked as editor of the almanac «Soviet Fatherland». Headed the magazine «Maladost» (Bel. Molodist). In 1958 - as part of the Belarusian delegation at the XII session of the UN General Assembly. In 1966 he was appointed secretary of the board of the BSSR JV. He was a deputy of the Supreme Council of the BSSR 5, 6, 8 convocations. Member of the PEN Club (1989). Signed an open letter to M. Gorbachev about the Belarusian language (1986)."
+                    }
+                },
+                {
+                    "date": "02.04.1995",
+                    "title": "Смерть",
+                    "info": {
+                        "ru": "Умер 2 апреля 1995 года. Похоронен в Минске на Восточном кладбище.",
+                        "en": "He died on April 2, 1995. He was buried in Minsk at the Eastern cemetery."
+                    }
                 }
             ],
             "slides": [

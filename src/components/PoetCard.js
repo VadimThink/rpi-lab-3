@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, CardMedia, CardContent, Typography, CardActions, Button, Grid } from '@material-ui/core';
 import { Link } from 'react-router-dom';
-import classes from '../styles/PoetInfo.module.scss';
+import classes from '../styles/PoetCard.module.scss';
 
 function PoetCard({ name, photo, children, index }) {
     return (

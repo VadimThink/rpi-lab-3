@@ -39,6 +39,7 @@
             display: flex !important;
             justify-content: center;
             align-items: center;
+            overflow: hidden;
 
             img {
                 height: 100%;
@@ -81,5 +82,28 @@
         height: 60vh;
         margin-top: 30px;
         border: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .main {
+        .poetInfo {
+            flex-direction: column;
+            align-items: center;
+
+            .wrapper {
+                .name {
+                    text-align: center;
+                }
+
+                .info {
+                    font-size: 16px;
+                }
+            }
+        }
+
+        .arrowWrapper {
+            display: none;
+        }
     }
 }
