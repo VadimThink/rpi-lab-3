@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
 
 function Poets({ width }) {
     const [searchValue, setSearchValue] = useState('');
-    const { getLang } = useLanguage();
+    const { t, getLang } = useLanguage();
     const classes = useStyles();
     const lang = getLang();
 
@@ -31,7 +31,7 @@ function Poets({ width }) {
     return (
         <Grid item xs={12} style={{ paddingBottom: 16 }}>
             {/* <SearchMenu /> */}
-            <input type="search" autoComplete="off" value={searchValue} onChange={handleChange} placeholder="Поиск" />
+            <input type="search" autoComplete="off" value={searchValue} onChange={handleChange} placeholder={t('search')} />
             <Container maxWidth="md" className={classes.container} disableGutters={true}>
                 <Grid item xs={12} spacing={width === 'xs' ? 0 : 3} container direction="row" justify="center" className={classes.itemContainer}>
                     {poets

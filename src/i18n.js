@@ -10,4 +10,5 @@ i18n.use(initReactI18next)
         },
         lng: 'ru',
         fallbackLng: 'ru',
+        interpolation: { escapeValue: false },
     });
